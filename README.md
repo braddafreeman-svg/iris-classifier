@@ -14,7 +14,7 @@ It follows a full machine-learning workflow:
 ## Quick Start
 
 ```bash
-git clone https://github.com/<YOUR_USERNAME>/iris-classifier.git
+git clone https://github.com/braddafreeman-svg/iris-classifier.git
 cd iris-classifier
 
 # Create + activate virtual environment
@@ -26,3 +26,4 @@ pip install -r requirements.txt
 
 # Run the training script
 python src/train.py --test-size 0.2 --random-state 42
+```
